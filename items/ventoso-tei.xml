@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Codifica TEI della lettera del Monte Ventoso (Fam. IV,1), testo integrale.
+     Modello del corso: titleStmt con respStmt, publicationStmt e sourceDesc
+     in prosa; text con front/body/back. Marcatura dei fenomeni del testo:
+     persName/placeName (riconciliati dove l'autorita e verificata), date
+     normalizzate, citazioni in versi e in prosa con cit/quote/bibl. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rerum familiarium libri IV, 1: l'ascensione al Monte Ventoso (testo integrale)</title>
+        <respStmt>
+          <resp>edizione digitale a cura di</resp>
+          <name xml:id="OP">Le opere di Petrarca</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Edizione didattica a fini di studio. Testo in pubblico dominio.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Testo latino integrale della lettera di Francesco Petrarca a Dionigi da Borgo
+           San Sepolcro (De ascensu montis Ventosi), trascritto dalla pagina
+           «Epistole familiares/4.1» di Wikisource latina
+           (https://la.wikisource.org/wiki/Epistole_familiares/4.1). La numerazione dei
+           paragrafi riproduce quella della fonte; i riferimenti alle fonti classiche e
+           bibliche indicati fra parentesi nella fonte sono codificati con bibl.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="salutatio">
+        <p>Epistola ad <persName>Dionysium de Burgo Sancti Sepulcri</persName>.</p>
+      </div>
+      <div type="argomento">
+        <head>Argomento</head>
+        <p>Petrarca narra la salita al <placeName ref="https://www.geonames.org/2970031">Mont
+           Ventoux</placeName> compiuta, secondo la data interna della lettera, il
+           <date when="1336-04-26">26 aprile 1336</date>.</p>
+      </div>
+    </front>
+    <body>
+      <div type="epistola">
+        <p n="1">Altissimum regionis huius montem, quem non immerito
+          <placeName ref="https://www.geonames.org/2970031">Ventosum</placeName> vocant,
+          hodierno die, sola videndi insignem loci altitudinem cupiditate ductus, ascendi.
+          multis iter hoc annis in animo fuerat; ab infantia enim his in locis, ut nosti,
+          fato res hominum versante, versatus sum; mons autem hic late undique conspectus,
+          fere semper in oculis est.</p>
+        <p n="2">Cepit impetus tandem aliquando facere quod quotidie faciebam, praecipue
+          postquam relegenti pridie res Romanas apud <persName>Livium</persName>
+          <bibl>(Liv., ab urbe cond. 40, 21, 2-4; 40, 22, 4-6)</bibl> forte ille mihi locus
+          occurrerat, ubi <persName>Philippus Macedonum rex</persName> - is qui cum populo
+          Romano bellum gessit - <placeName>Haemum montem</placeName> Thessalicum conscendit,
+          e cuius vertice duo maria videri, Adriaticum et Euxinum, famae crediderat, vere ne
+          an falso satis comperti nihil habeo, quod et mons a nostro orbe semotus et
+          scriptorum dissensio dubiam rem facit. ne enim cunctos evolvam,
+          <persName>Pomponius Mela</persName> <bibl>(Pomp. Mela, de chorogr. 2, 17)</bibl>
+          cosmographus sic esse nihil haesitans refert; <persName>Titus Livius</persName>
+          falsam famam opinatur; mihi si tam prompta montis illius experientia esset quam
+          huius fuit, diu dubium esse non sinerem.</p>
+        <p n="3">Ceterum, ut illo omisso, ad hunc montem veniam, excusabile visum est in
+          iuvene privato quod in rege sene non carpitur. sed de socio cogitanti, mirum dictu,
+          vix amicorum quisquam omni ex parte idoneus videbatur: adeo etiam inter caros
+          exactissima illa voluntatum omnium morumque concordia rara est.</p>
+        <p n="4">Hic segnior, ille vigilantior; hic tardior, ille celerior; hic maestior,
+          ille laetior; denique hic stultior, prudentior ille quam vellem; huius silentium,
+          illius procacitas; huius pondus ac pinguedo, illius macies atque imbecillitas
+          terrebat; huius frigida incuriositas, illius ardens occupatio dehortabatur; quae,
+          quamquam gravia, tolerantur domi - omnia enim suffert caritas
+          <bibl>(1 Cor. 13, 7)</bibl> et nullum pondus recusat amicitia -; verum haec eadem
+          fiunt in itinere graviora.</p>
+        <p n="5">Itaque delicatus animus honestaeque delectationis appetens circumspiciensque
+          librabat singula sine ulla quidem amicitiae laesione, tacitusque quicquid proposito
+          itineri praevidebat molestum fieri posse, damnabat. quid putas? tandem ad domestica
+          vertor auxilia, germanoque meo unico, minori natu, quem probe nosti, rem aperio.
+          nil poterat laetius audire, gratulatus quod apud me amici simul ac fratris teneat
+          locum.</p>
+        <p n="6">Statuta die digressi domo, <placeName>Malausanam</placeName> venimus ad
+          vesperam; locus est in radicibus montis, versus in boream. illic unum diem morati,
+          hodie tandem cum singulis famulis montem ascendimus non sine multa difficultate:
+          est enim praerupta et paene inaccessibilis saxosae telluris moles; sed bene a poeta
+          dictum est:
+          <cit><quote><lg><l>labor omnia vincit</l><l>improbus.</l></lg></quote>
+          <bibl>(Verg., Georg. 1, 145 sq.)</bibl></cit>
+          Dies longa, blandus aer, animorum vigor, corporum robur ac dexteritas et siqua sunt
+          eiusmodi, euntibus aderant; sola nobis obstabat natura loci.</p>
+        <p n="7">Pastorem exactae aetatis inter convexa montis invenimus, qui nos ab ascensu
+          retrahere multis verbis enisus est, dicens se ante annos quinquaginta eodem
+          iuvenilis ardoris impetu supremum in verticem ascendisse, nihilque inde retulisse
+          praeter poenitentiam et laborem, corpusque et amictum lacerum saxis ac vepribus,
+          nec umquam aut ante illud tempus aut postea auditum apud eos quemquam ausum esse
+          similia.</p>
+        <p n="8">Haec illo vociferante, nobis, ut sunt animi iuvenum monitoribus increduli,
+          crescebat ex prohibitione cupiditas. itaque senex, ubi animadvertit se nequicquam
+          niti, aliquantulum progressus inter rupes, arduum callem digito nobis ostendit,
+          multa monens multaque iam digressis a tergo ingeminans. Dimisso penes illum siquid
+          vestium aut rei cuiuspiam impedimento esset, soli dumtaxat ascensui accingimur
+          alacresque conscendimus.</p>
+        <p n="9">Sed, ut fere fit, ingentem conatum velox fatigatio subsequitur; non procul
+          inde igitur quadam in rupe subsistimus. inde iterum digressi provehimur, sed
+          lentius: et praesertim ego montanum iter gressu iam modestiore carpebam, et frater
+          compendiaria quidem via per ipsius iuga montis ad altiora tendebat; ego mollior ad
+          ima vergebam, revocantique et iter rectius designanti respondebam sperare me
+          alterius lateris faciliorem aditum, nec horrere longiorem viam per quam planius
+          incederem.</p>
+        <p n="10">Hanc excusationem ignaviae praetendebam, aliisque iam excelsa tenentibus,
+          per valles errabam, cum nihilo mitior aliunde pateret accessus, sed et via
+          cresceret et inutilis labor ingravesceret. interea, cum iam taedio confectum
+          perplexi pigeret erroris, penitus alta petere disposui, cumque operientem fratrem
+          et longo refectum accubitu fessus et anxius attigissem, aliquandiu aequis passibus
+          incessimus.</p>
+        <p n="11">Vixdum collem illum reliqueramus, et ecce prioris anfractus oblitus, iterum
+          ad inferiora deicior, atque iterum peragratis vallibus dum viarum facilem
+          longitudinem sector, in longam difficultatem incido. differebam nempe ascendendi
+          molestiam, sed ingenio humanae rerum natura non tollitur, nec fieri potest ut
+          corporeum aliquid ad alta descendendo perveniat. Quid multa? non sine fratris risu,
+          hoc indignanti mihi ter aut amplius intra paucas horas contigit.</p>
+        <p n="12">Sic saepe delusus quadam in valle consedi. illic a corporeis ad incorporea
+          volucri cogitatione transiliens, his aut talibus me ipsum compellabam verbis:
+          <quote>quod totiens hodie in ascensu montis huius expertus es, id scito et tibi
+          accidere et multis, accedentibus ad beatam vitam; sed idcirco tam facile ab
+          hominibus non perpendi, quod corporis motus in aperto sunt, animorum vero
+          invisibiles et occulti.</quote></p>
+        <p n="13">Equidem vita, quam beatam dicimus, celso loco sita est; arcta, ut aiunt, ad
+          illam ducit via <bibl>(Mt. 7, 14)</bibl>. multi quoque colles intereminent et de
+          virtute in virtutem praeclaris gradibus ambulandum est; in summo finis est omnium
+          et viae terminus ad quem peregrinatio nostra disponitur. eo pervenire volunt omnes,
+          sed, ut ait <persName>Naso</persName>,
+          <cit><quote><lg><l>Velle parum est; cupias, ut re potiaris, oportet.</l></lg></quote>
+          <bibl>(Ov., ep. ex Pont. 3, 1, 35)</bibl></cit></p>
+        <p n="14">Tu certe - nisi, ut in multis, in hoc quoque te fallis - non solum vis sed
+          etiam cupis. quid ergo te retinet? nimirum nihil aliud, nisi per terrenas et
+          infimas voluptates planior et ut prima fronte videtur, expeditior via; verumtamen,
+          ubi multum erraveris, aut sub pondere male dilati laboris ad ipsius te beatae vitae
+          culmen oportet ascendere aut in convallibus peccatorum tuorum segnem procumbere; et
+          si - quod ominari horreo - ibi te tenebrae et umbra mortis <bibl>(Ps. 107, 10)</bibl>
+          invenerint, aeternam noctem in perpetuis cruciatibus agere.</p>
+        <p n="15">Haec mihi cogitatio incredibile dictu est quantum ad ea quae restabant et
+          animum et corpus erexerit. atque utinam vel sic animo peragam iter illud, cui
+          diebus et noctibus suspiro, sicut, superatis tandem difficultatibus, hodiernum iter
+          corporeis pedibus peregi! ac nescio annon longe facilius esse debeat quod per ipsum
+          animum agilem et immortalem sine ullo locali motu in ictu trepidantis oculi fieri
+          potest, quam quod successu temporis per moribundi et caduci corporis obsequium ac
+          sub gravi membrorum fasce gerendum est.</p>
+        <p n="16">Collis est omnium supremus, quem silvestres <quote>filiolum</quote> vocant;
+          cur, ignoro; nisi quod per antiphrasim, ut quaedam alia, dici suspicor: videtur
+          enim vere pater omnium vicinorum montium. illius in vertice planities parva est;
+          illic demum fessi conquievimus. Et quoniam audivisti quaenam ascendentis in pectus
+          ascenderint curae, audi, pater, et reliqua; et unam, precor, horam tuam relegendis
+          unius diei mei actibus tribue.</p>
+        <p n="17">Primum omnium spiritu quodam aeris insolito et spectaculo liberiore
+          permotus, stupenti similis steti. respicio: nubes erant sub pedibus; iamque mihi
+          minus incredibiles facti sunt <placeName>Athos</placeName> et
+          <placeName>Olympus</placeName>, dum quod de illis audieram et legeram, in minoris
+          famae monte conspicio.</p>
+        <p n="18">Dirigo dehinc oculorum radios ad partes Italicas, quo magis inclinat
+          animus; <placeName>Alpes</placeName> ipse rigentes ac nivosae, per quas ferus ille
+          quondam hostis Romani nominis transivit, aceto, si famae credimus
+          <bibl>(Liv., ab urbe cond. 21, 37, 2)</bibl>, saxa perrumpens, iuxta mihi visae
+          sunt, cum tamen magno distent intervallo. suspiravi, fateor, ad Italicum aerem
+          animo potius quam oculis apparentem, atque inexistimabilis me ardor invasit et
+          amicum et patriam revidendi. ita tamen ut interim in utroque nondum virilis
+          affectus mollitiem increparem, quamvis excusatio utrobique non deforet magnorum
+          testium fulta praesidio.</p>
+        <p n="19">Occupavit inde animum nova cogitatio atque a locis traduxit ad tempora.
+          dicebam enim ad me ipsum: <quote>hodie decimus annus completur, ex quo, puerilibus
+          studiis dimissis, <placeName>Bononia</placeName> excessisti; et, o Deus immortalis,
+          o immutabilis sapientia, quot et quantas morum tuorum mutationes hoc medium tempus
+          vidit!</quote> infinita praetereo; nondum enim in portu sum, ut securus
+          praeteritarum meminerim procellarum.</p>
+        <p n="20">Tempus forsan veniet, quando eodem quo gesta sunt ordine universa
+          percurram, praefatus illud <persName ref="https://viaf.org/viaf/66806872/">Augustini</persName>
+          tui: <cit><quote>recordari volo transactas foeditates meas et carnales corruptiones
+          animae meae, non quod eas amem, sed ut amem te, Deus meus.</quote>
+          <bibl>(Aug. conf. 2, 1, 1)</bibl></cit></p>
+        <p n="21">Mihi quidem multum adhuc ambigui molestique negotii superest. quod amare
+          solebam, iam non amo; mentior: amo, sed parcius; iterum ecce mentitus sum: amo, sed
+          verecundius, sed tristius; iamtandem verum dixi. sic est enim; amo, sed quod non
+          amare amem, quod odisse cupiam; amo tamen, sed invitus, sed coactus, sed maestus et
+          lugens. et in me ipso versiculi illius famosissimi sententiam miser experior:
+          <cit><quote><lg><l>Odero, si potero; si non, invitus amabo.</l></lg></quote>
+          <bibl>(Ov., amor. 3, 11, 35)</bibl></cit></p>
+        <p n="22">Nondum mihi tertius annus effluxit, ex quo voluntas illa perversa et
+          nequam, quae me totum habebat et in aula cordis mei sola sine contradictore
+          regnabat, coepit aliam habere rebellem et reluctantem sibi, inter quas iamdudum in
+          campis cogitationum mearum de utriusque hominis imperio laboriosissima et anceps
+          etiam nunc pugna conseritur. Sic per exactum decennium cogitatione volvebar.</p>
+        <p n="23">Hinc iam curas meas in anteriora mittebam, et quaerebam ex me ipse:
+          <quote>si tibi forte contingeret per alia duo lustra volatilem hanc vitam
+          producere, tantumque pro rata temporis ad virtutem accedere quantum hoc biennio,
+          per congressum novae contra veterem voluntatis, ab obstinatione pristina
+          recessisti, nonne tunc posses, etsi non certus at saltem sperans, quadragesimo
+          aetatis anno mortem oppetere et illud residuum vitae in senium abeuntis aequa mente
+          negligere?</quote></p>
+        <p n="24">Haec atque his similes cogitationes in pectore meo recursabant, pater. de
+          provectu meo gaudebam, imperfectum meum flebam et mutabilitatem communem humanorum
+          actuum miserabar; et quem in locum, quam ob causam venissem, quodammodo videbar
+          oblitus, donec, ut omissis curis, quibus alter locus esset opportunior, respicerem
+          et viderem quae visurus adveneram - instare enim tempus abeundi, quod inclinaret
+          iam sol et umbra montis excresceret, admonitus et velut expergefactus -, verto me
+          in tergum, ad occidentem respiciens.</p>
+        <p n="25">Limes ille Galliarum et Hispaniae, <placeName>Pirenaeus</placeName> vertex,
+          inde non cernitur, nullius quem sciam obicis interventu, sed sola fragilitate
+          mortalis visus; Lugdunensis autem provinciae montes ad dexteram, ad laevam vero
+          <placeName>Massiliae</placeName> fretum et quod <placeName>Aquas Mortuas</placeName>
+          verberat, aliquot dierum spatio distantia, praeclarissime videbantur;
+          <placeName>Rhodanus</placeName> ipse sub oculis nostris erat.</p>
+        <p n="26">Quae dum mirarer singula et nunc terrenum aliquid saperem, nunc exemplo
+          corporis animum ad altiora subveherem, visum est mihi Confessionum
+          <persName ref="https://viaf.org/viaf/66806872/">Augustini</persName> librum,
+          caritatis tuae munus, inspicere; quem et conditoris et donatoris in memoriam servo
+          habeoque semper in manibus: pugillare opusculum, perexigui voluminis sed infinitae
+          dulcedinis. aperio, lecturus quicquid occurreret; quid enim nisi pium et devotum
+          posset occurrere?</p>
+        <p n="27">Forte autem decimus illius operis liber oblatus est. frater expectans per
+          os meum ab Augustino aliquid audire, intentis auribus stabat. Deum testor ipsumque
+          qui aderat, quod ubi primum defixi oculos, scriptum erat:
+          <cit><quote>et eunt homines admirari alta montium et ingentes fluctus maris et
+          latissimos lapsus fluminum et oceani ambitum et giros siderum, et relinquunt se
+          ipsos.</quote> <bibl>(Aug., conf. 10, 8, 15)</bibl></cit></p>
+        <p n="28">Obstupui, fateor; audiendique avidum fratrem rogans ne mihi molestus esset,
+          librum clausi, iratus mihimet quod nunc etiam terrestria mirarer, qui iampridem ab
+          ipsis gentium philosophis discere debuissem nihil praeter animum esse mirabile, cui
+          magno nihil est magnum.</p>
+        <p n="29">Tunc vero montem satis vidisse contentus, in me ipsum interiores oculos
+          reflexi, et ex illa hora non fuit qui me loquentem audiret donec ad ima pervenimus;
+          satis mihi taciti negotii verbum illud attulerat.</p>
+        <p n="30">Nec opinari poteram id fortuito contigisse, sed quicquid ibi legeram, mihi
+          et non alteri dictum rebar; recolens quod idem de se ipso suspicatus olim esset
+          <persName ref="https://viaf.org/viaf/66806872/">Augustinus</persName>
+          <bibl>(Aug., conf. 8, 12, 29)</bibl>, quando in lectione codicis Apostolici, ut
+          ipse refert, primum sibi illud occurrit:
+          <cit><quote>non in comissationibus et ebrietatibus, non in cubilibus et
+          impudicitiis, non in contentione et aemulatione; sed induite dominum Iesum
+          Christum, et carnis providentiam ne feceritis in concupiscentiis vestris.</quote>
+          <bibl>(ad Rom. 13, 13 sq.)</bibl></cit></p>
+        <p n="31">Quod iam ante <persName>Antonio</persName> acciderat, quando audito
+          Evangelio ubi scriptum est: <cit><quote>si vis perfectus esse, vade et vende omnia
+          tua quaecumque habes et da pauperibus, et veni et sequere me et habebis thesaurum
+          in caelis</quote> <bibl>(Mt. 19, 21)</bibl></cit>, veluti propter se haec esse
+          scriptura recitata, ut scriptor rerum eius <persName>Athanasius</persName> ait, ad
+          se dominicum traxit imperium. <bibl>(Euagrius, vita Antonii 2)</bibl></p>
+        <p n="32">Et sicut Antonius, his auditis, aliud non quaesivit, et sicut Augustinus,
+          his lectis, ulterius non processit, sic et mihi in paucis verbis quae praemisi,
+          totius lectionis terminus fuit, in silentio cogitanti quanta mortalibus consilii
+          esset inopia, qui, nobilissima sui parte neglecta, diffundantur in plurima et
+          inanibus spectaculis evanescant, quod intus inveniri poterat, quaerentes
+          extrinsecus; admirantique nobilitatem animi nostri, nisi sponte degenerans ab
+          originis suae primordiis aberrasset, et quae sibi dederat in honorem Deus, ipse in
+          opprobrium convertisset.</p>
+        <p n="33">Quotiens, putas, illo die, rediens et in tergum versus, cacumen montis
+          aspexi! et vix unius cubiti altitudo visa est prae altitudine contemplationis
+          humanae, siquis eam non in lutum terrenae foeditatis immergeret. illud quoque per
+          singulos passus occurrebat: si tantum sudoris ac laboris, ut corpus caelo paululum
+          proximius fieret, subire non piguit, quae crux, quis carcer, quis equuleus deberet
+          terrere animum appropinquantem Deo, turgidumque cacumen insolentiae et mortalia
+          fata calcantem?</p>
+        <p n="34">et hoc: quotocuique accidet, ut ab hac semita, vel durarum metu rerum vel
+          mollium cupidine, non divertat? o nimium felix! siquis usquam est, de illo sensisse
+          arbitrer poetam:
+          <cit><quote><lg><l>Felix qui potuit rerum cognoscere causas</l>
+          <l>atque metus omnes et inexorabile fatum</l>
+          <l>subiecit pedibus strepitumque Acherontis avari!</l></lg></quote>
+          <bibl>(Verg. Georg. 2, 490-92)</bibl></cit>
+          O quanto studio laborandum esset, non ut altiorem terram, sed ut elatos terrenis
+          impulsibus appetitus sub pedibus haberemus!</p>
+        <p n="35">Hos inter undosi pectoris motus, sine sensu scrupulosi tramitis, ad illud
+          hospitiolum rusticum unde ante lucem moveram, profunda nocte remeavi, et luna
+          pernox gratum obsequium praestabat euntibus. interim ergo, dum famulos apparandae
+          cenae studium exercet, solus ego in partem domus abditam perrexi, haec tibi, raptim
+          et ex tempore, scripturus; ne, si distulissem, pro varietate locorum mutatis forsan
+          affectibus, scribendi propositum deferveret.</p>
+        <p n="36">Vide itaque, pater amantissime, quam nihil in me oculis tuis occultum
+          velim, qui tibi nedum universam vitam meam sed cogitatus singulos tam diligenter
+          aperio; pro quibus ora, quaeso, ut tandiu vagi et instabiles aliquando subsistant,
+          et inutiliter per multa iactati, ad unum, bonum, verum, certum, stabile se
+          convertant.</p>
+      </div>
+    </body>
+    <back>
+      <div type="explicit">
+        <p>Vale. <date when="1336-04-26"><choice><abbr>VI Kal. Maias</abbr>
+           <expan>ante diem sextum Kalendas Maias (26 aprile)</expan></choice></date>,
+           <placeName>Malausanae</placeName>.</p>
+      </div>
+    </back>
+  </text>
+</TEI>

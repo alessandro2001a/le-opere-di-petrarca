@@ -1,0 +1,139 @@
+{
+  "title": {
+    "text": {
+      "headline": "Francesco Petrarca",
+      "text": "Vita e opere (1304–1374) — linea del tempo della raccolta «Le opere di Petrarca»"
+    },
+    "media": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Altichiero,%20ritratto%20di%20Francesco%20Petrarca.jpg",
+      "caption": "Altichiero da Zevio, Ritratto di Francesco Petrarca, 1376 ca.",
+      "credit": "Wikimedia Commons, pubblico dominio"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "1304"
+      },
+      "text": {
+        "headline": "Nascita ad Arezzo",
+        "text": "Francesco Petrarca nasce il 20 luglio 1304 ad Arezzo."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1312"
+      },
+      "text": {
+        "headline": "Trasferimento ad Avignone",
+        "text": "La famiglia si stabilisce presso la corte papale di Avignone."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1327"
+      },
+      "text": {
+        "headline": "Incontro con Laura",
+        "text": "Il 6 aprile 1327 Petrarca incontra Laura: ispirazione del <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/canzoniere.html'>Canzoniere</a>."
+      },
+      "media": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Petrarch%20canzoniere.jpg",
+        "caption": "Canzoniere, pagina manoscritta",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1336"
+      },
+      "text": {
+        "headline": "L'ascensione al Monte Ventoso",
+        "text": "Data della celebre <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/ventoso.html'>lettera (Fam. IV,1)</a>."
+      },
+      "media": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20versant%20nord%20du%20Mont%20Ventoux.jpg",
+        "caption": "Mont Ventoux, versante nord",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1337"
+      },
+      "text": {
+        "headline": "Valchiusa e le opere latine",
+        "text": "Si ritira a Fontaine-de-Vaucluse; avvia l'<a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/africa.html'>Africa</a> e il <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/deviris.html'>De viris illustribus</a>."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1341"
+      },
+      "text": {
+        "headline": "Incoronazione poetica",
+        "text": "L'8 aprile 1341 è incoronato poeta in Campidoglio a Roma."
+      },
+      "media": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/First%20page%20of%20the%201501%20edition%20of%20Petrarch's%20%22Africa%22.png",
+        "caption": "Prima pagina dell'Africa, edizione 1501",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1347"
+      },
+      "text": {
+        "headline": "Secretum",
+        "text": "Compone il <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/secretum.html'>Secretum</a>, dialogo con sant'Agostino."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1348"
+      },
+      "text": {
+        "headline": "Morte di Laura",
+        "text": "Laura muore durante la peste: svolta nel Canzoniere (rime in morte)."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1351"
+      },
+      "text": {
+        "headline": "Trionfi",
+        "text": "Lavora al poema allegorico dei <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/trionfi.html'>Trionfi</a>."
+      },
+      "media": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ser%20Ricciardo%20di%20Nanni%20001.jpg",
+        "caption": "Ser Ricciardo di Nanni, pagina miniata del Triumphus Cupidinis, sec. XV",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1370"
+      },
+      "text": {
+        "headline": "Arquà",
+        "text": "Si stabilisce ad <a href='https://alessandro2001a.github.io/le-opere-di-petrarca/opere/arqua.html'>Arquà</a>, sui Colli Euganei."
+      },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Arqua_Petrarca_25_%288189350422%29.jpg",
+        "caption": "Casa del Petrarca ad Arquà, la loggia e il giardino",
+        "credit": "Wikimedia Commons"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1374"
+      },
+      "text": {
+        "headline": "Morte ad Arquà",
+        "text": "Muore nella notte tra il 18 e il 19 luglio 1374, lavorando fino all'ultimo al Canzoniere."
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "canzoniere",
+    "dublin_core": {
+      "title": "Canzoniere (Rerum vulgarium fragmenta)",
+      "creator": "Francesco Petrarca",
+      "subject": "Lirica volgare; sonetto; petrarchismo",
+      "description": "Raccolta di 366 rime in volgare incentrata su Laura.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1336/1374",
+      "type": "Text",
+      "format": "application/xml",
+      "language": "ita",
+      "coverage": "Valchiusa; Arquà",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Fontaine-de-Vaucluse / Valchiusa (GeoNames 3018066)",
+        "uri": "https://www.geonames.org/3018066"
+      },
+      "soggetto": {
+        "label": "Letteratura italiana (LCSH sh85068816)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85068816"
+      }
+    }
+  },
+  {
+    "id": "trionfi",
+    "dublin_core": {
+      "title": "Trionfi",
+      "creator": "Francesco Petrarca",
+      "subject": "Poema allegorico",
+      "description": "Poema allegorico in terzine sui sei trionfi.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1351/1374",
+      "type": "Text",
+      "format": "text/html",
+      "language": "ita",
+      "coverage": "Italia",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Arquà Petrarca (GeoNames 3182805)",
+        "uri": "https://www.geonames.org/3182805"
+      },
+      "soggetto": {
+        "label": "Letteratura italiana (LCSH sh85068816)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85068816"
+      }
+    }
+  },
+  {
+    "id": "secretum",
+    "dublin_core": {
+      "title": "Secretum",
+      "creator": "Francesco Petrarca",
+      "subject": "Dialogo filosofico; introspezione",
+      "description": "Dialogo latino fra Petrarca e Agostino.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1347/1353",
+      "type": "Text",
+      "format": "text/html",
+      "language": "lat",
+      "coverage": "Valchiusa",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Fontaine-de-Vaucluse / Valchiusa (GeoNames 3018066)",
+        "uri": "https://www.geonames.org/3018066"
+      },
+      "soggetto": {
+        "label": "Letteratura latina medievale (LCSH sh85074968)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85074968"
+      }
+    }
+  },
+  {
+    "id": "africa",
+    "dublin_core": {
+      "title": "Africa",
+      "creator": "Francesco Petrarca",
+      "subject": "Poema epico; Scipione l'Africano",
+      "description": "Poema epico latino in esametri su Scipione. Dedicato al dotto re di Napoli Roberto d'Angiò, è composto da nove libri, ma proprio per questo forse incompleto.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1338/1343",
+      "type": "Text",
+      "format": "text/html",
+      "language": "lat",
+      "coverage": "Valchiusa",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Fontaine-de-Vaucluse / Valchiusa (GeoNames 3018066)",
+        "uri": "https://www.geonames.org/3018066"
+      },
+      "soggetto": {
+        "label": "Letteratura latina medievale (LCSH sh85074968)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85074968"
+      }
+    }
+  },
+  {
+    "id": "deviris",
+    "dublin_core": {
+      "title": "De viris illustribus",
+      "creator": "Francesco Petrarca",
+      "subject": "Biografie; storiografia; umanesimo",
+      "description": "Biografie latine di uomini illustri dell'antichità divise in due libri, ciascuno dei quali corrisponde a una diversa fase nella composizione.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1337/1353",
+      "type": "Text",
+      "format": "text/html",
+      "language": "lat",
+      "coverage": "Valchiusa; Arquà",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Arquà Petrarca (GeoNames 3182805)",
+        "uri": "https://www.geonames.org/3182805"
+      },
+      "soggetto": {
+        "label": "Letteratura latina medievale (LCSH sh85074968)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85074968"
+      }
+    }
+  },
+  {
+    "id": "familiares",
+    "dublin_core": {
+      "title": "Rerum familiarium libri",
+      "creator": "Francesco Petrarca",
+      "subject": "Epistolografia; prosa latina",
+      "description": "Raccolta di lettere familiari in latino.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1325/1366",
+      "type": "Text",
+      "format": "text/html",
+      "language": "lat",
+      "coverage": "Europa",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Avignone (GeoNames 3035681)",
+        "uri": "https://www.geonames.org/3035681"
+      },
+      "soggetto": {
+        "label": "Letteratura latina medievale (LCSH sh85074968)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85074968"
+      }
+    }
+  },
+  {
+    "id": "ventoso",
+    "dublin_core": {
+      "title": "L'ascensione al Monte Ventoso (Fam. IV,1)",
+      "creator": "Francesco Petrarca",
+      "subject": "Lettera; paesaggio; introspezione",
+      "description": "Lettera sulla salita al Mont Ventoux, indirizzata all'amico Dionigi di Borgo San Sepolcro.",
+      "publisher": "Edizione digitale didattica",
+      "date": "1336?",
+      "type": "Text",
+      "format": "application/xml",
+      "language": "lat",
+      "coverage": "Mont Ventoux",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Mont Ventoux (GeoNames 2970031)",
+        "uri": "https://www.geonames.org/2970031"
+      },
+      "soggetto": {
+        "label": "Letteratura latina medievale (LCSH sh85074968)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85074968"
+      }
+    }
+  },
+  {
+    "id": "vat3195",
+    "dublin_core": {
+      "title": "Canzoniere, Vat. Lat. 3195",
+      "creator": "Francesco Petrarca; Giovanni Malpaghini",
+      "subject": "Manoscritto; codicologia; autografo",
+      "description": "Codice in parte autografo del Canzoniere.",
+      "publisher": "Biblioteca Apostolica Vaticana",
+      "date": "1366/1374",
+      "type": "Image",
+      "format": "image/jpeg",
+      "language": "ita",
+      "coverage": "Città del Vaticano",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Roma / Città del Vaticano (GeoNames 3169070)",
+        "uri": "https://www.geonames.org/3169070"
+      },
+      "soggetto": {
+        "label": "Petrarca come soggetto (LCNAF n79092622)",
+        "uri": "https://id.loc.gov/authorities/names/n79092622"
+      }
+    }
+  },
+  {
+    "id": "ritratto",
+    "dublin_core": {
+      "title": "Ritratto di Francesco Petrarca",
+      "creator": "Altichiero da Zevio",
+      "subject": "Ritrattistica; iconografia",
+      "description": "Ritratto di Francesco Petrarca attribuito ad Altichiero.",
+      "publisher": "-",
+      "date": "1376 ca.",
+      "type": "Image",
+      "format": "image/jpeg",
+      "language": "-",
+      "coverage": "Padova",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Padova (GeoNames 3171728)",
+        "uri": "https://www.geonames.org/3171728"
+      },
+      "soggetto": {
+        "label": "Petrarca come soggetto (LCNAF n79092622)",
+        "uri": "https://id.loc.gov/authorities/names/n79092622"
+      }
+    }
+  },
+  {
+    "id": "letturarvf",
+    "dublin_core": {
+      "title": "Lettura di RVF 1 'Voi ch'ascoltate'",
+      "creator": "Sergio Baldelli (lettore)",
+      "subject": "Recitazione; poesia; oralità",
+      "description": "Lettura audio del sonetto proemiale del Canzoniere.",
+      "publisher": "LibriVox / Internet Archive",
+      "date": "s.d.",
+      "type": "Sound",
+      "format": "audio/mpeg",
+      "language": "ita",
+      "coverage": "-",
+      "rights": "Pubblico dominio"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Arquà Petrarca (GeoNames 3182805)",
+        "uri": "https://www.geonames.org/3182805"
+      },
+      "soggetto": {
+        "label": "Letteratura italiana (LCSH sh85068816)",
+        "uri": "https://id.loc.gov/authorities/subjects/sh85068816"
+      }
+    }
+  },
+  {
+    "id": "arqua",
+    "dublin_core": {
+      "title": "Casa del Petrarca ad Arquà",
+      "creator": "-",
+      "subject": "Casa-museo; luoghi petrarcheschi",
+      "description": "Dimora e casa-museo di Petrarca ad Arquà.",
+      "publisher": "Comune di Arquà Petrarca",
+      "date": "XIV sec.",
+      "type": "Image",
+      "format": "image/jpeg",
+      "language": "-",
+      "coverage": "Arquà Petrarca",
+      "rights": "CC BY 4.0"
+    },
+    "autorita": {
+      "persona": {
+        "label": "Francesco Petrarca (VIAF 39382430)",
+        "uri": "https://viaf.org/viaf/39382430/"
+      },
+      "luogo": {
+        "label": "Casa del Petrarca, Arquà (GeoNames 11496398)",
+        "uri": "https://www.geonames.org/11496398"
+      },
+      "soggetto": {
+        "label": "Petrarca come soggetto (LCNAF n79092622)",
+        "uri": "https://id.loc.gov/authorities/names/n79092622"
+      }
+    }
+  }
+]

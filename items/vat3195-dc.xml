@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per: Autografo del Canzoniere (Vat. Lat. 3195).
+     Modello del corso (item-DC-Qualified): root con namespace di
+     progetto + xsi:schemaLocation; xsi:type per gli encoding scheme;
+     attributo op:ref per la riconciliazione agli authority file. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>Canzoniere, Vat. Lat. 3195</dc:title>
+  <dc:creator xsi:type="op:viaf" op:ref="https://viaf.org/viaf/39382430/">Francesco Petrarca; Giovanni Malpaghini</dc:creator>
+
+  <dc:subject>Manoscritto; codicologia; autografo</dc:subject>
+  <dc:subject xsi:type="op:lcnaf">https://id.loc.gov/authorities/names/n79092622</dc:subject>
+
+  <dc:description>Codice in parte autografo del Canzoniere.</dc:description>
+  <dc:publisher>Biblioteca Apostolica Vaticana</dc:publisher>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/3169070">Città del Vaticano</dc:coverage>
+  <dcterms:created xsi:type="dcterms:W3CDTF">1366</dcterms:created>
+
+  <dc:type>Image</dc:type>
+  <dc:format xsi:type="dcterms:IMT">image/jpeg</dc:format>
+  <dc:language>ita</dc:language>
+
+  <dcterms:isPartOf xsi:type="dcterms:URI">https://www.vatlib.it/</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">opere/vat3195.html</dc:identifier>
+  <dc:rights>Pubblico dominio</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analisi del testo — Le opere di Petrarca</title>
+
+  <!-- Metadati Dublin Core (dcq-html) -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="DC.Title" content="Analisi del testo — Le opere di Petrarca">
+  <meta name="DC.Creator" content="Alessandro Calò — Laurea magistrale in Scienze storiche, Università di Bologna">
+  <meta name="DC.Subject" content="Voyant Tools; distant reading; analisi lessicale; Canzoniere">
+  <meta name="DC.Description" content="Analisi lessicale del sonetto proemiale del Canzoniere con Voyant Tools.">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2026-07-12">
+  <meta name="DC.Type" content="InteractiveResource">
+  <meta name="DC.Format" content="text/html">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Rights" content="CC BY 4.0">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+<!-- Navbar responsive (W3Schools How To) -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="catalogo.html">Catalogo</a>
+  <a href="cronologia.html">Cronologia</a>
+  <a href="luoghi.html">Luoghi</a>
+  <a class="active" href="analisi.html">Analisi del testo</a>
+  <a href="dati.html">Dati</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<header class="testata">
+  <h1>Analisi del testo con Voyant Tools</h1>
+  <p><a href="https://voyant-tools.org/" target="_blank" rel="noopener">Voyant Tools</a>
+     è un ambiente di lettura e analisi di testi digitali (<em>distant reading</em>)
+     sviluppato da Stéfan Sinclair e Geoffrey Rockwell: qui è applicato al sonetto proemiale
+     del Canzoniere (RVF 1) per esplorarne il lessico.</p>
+</header>
+
+<main class="contenuto">
+
+  <section>
+    <h2>La nuvola lessicale di «Voi ch'ascoltate» (RVF 1)</h2>
+    <p>Lo strumento <em>Cirrus</em> di Voyant applicato al sonetto proemiale del Canzoniere
+       (testo da Wikisource): la dimensione delle parole è proporzionale alla loro frequenza.
+       Il testo integrale del sonetto, con la marcatura della struttura metrica, è nella
+       <a href="items/canzoniere-tei.xml" target="_blank">trascrizione XML/TEI</a> della raccolta.</p>
+    <!-- Voyant Tools (embed) -->
+    <iframe class="voyant"
+            src="https://voyant-tools.org/tool/Cirrus/?input=https://alessandro2001a.github.io/le-opere-di-petrarca/data/rvf1.txt"
+            width="100%" height="480" title="Voyant Tools: Cirrus su RVF 1"></iframe>
+  </section>
+
+  <section class="riquadro">
+    <h2>Le parole del sonetto proemiale</h2>
+    <p>La nuvola rende subito visibili le parole chiave del sonetto proemiale
+       (<em>rime</em>, <em>sospiri</em>, <em>errore</em>, <em>vergogna</em>...):
+       il lessico che la critica riconosce come programma dell'intera raccolta,
+       osservato qui non con la lettura lineare ma con il conteggio, la frequenza
+       e la distribuzione dei termini nel testo.</p>
+    <p>Collegamenti nella raccolta: <a href="opere/canzoniere.html">Canzoniere</a>,
+       <a href="opere/letturarvf.html">lettura audio di RVF 1</a>.</p>
+  </section>
+
+</main>
+
+<!-- Torna su (W3Schools How To) -->
+<button onclick="topFunction()" id="myBtn" title="Torna all'inizio">&#8679; Su</button>
+
+<footer class="piede">
+  <p>«Le opere di Petrarca» — prova finale del corso <em>Digital Humanities e Patrimonio
+  Culturale</em> (LM, Università di Bologna). Contenuti descritti con Dublin Core, XML/TEI
+  e record di autorità (VIAF, GeoNames, LCSH/LCNAF).</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

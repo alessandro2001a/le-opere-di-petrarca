@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per il Canzoniere (RVF 1).
+     Modello del corso (item-DC-Qualified): root con namespace di
+     progetto + xsi:schemaLocation; xsi:type per gli encoding scheme;
+     attributo op:ref per la riconciliazione agli authority file. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>Canzoniere (Rerum vulgarium fragmenta), RVF 1</dc:title>
+  <dc:creator xsi:type="op:viaf" op:ref="https://viaf.org/viaf/39382430/">Francesco Petrarca</dc:creator>
+
+  <dc:subject>lirica volgare, sonetto, petrarchismo</dc:subject>
+  <dc:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85068816</dc:subject>
+
+  <dc:description>Sonetto proemiale del Canzoniere, "Voi ch'ascoltate in rime sparse il suono".</dc:description>
+  <dc:publisher>Edizione digitale didattica</dc:publisher>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/3018066">Valchiusa</dc:coverage>
+  <dcterms:created xsi:type="dcterms:W3CDTF">1336</dcterms:created>
+
+  <dc:type>Text</dc:type>
+  <dc:format xsi:type="dcterms:IMT">application/xml</dc:format>
+  <dc:language>ita</dc:language>
+
+  <dcterms:isPartOf xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Canzoniere_(Petrarca)</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">items/canzoniere-tei.xml</dc:identifier>
+  <dc:rights>Pubblico dominio</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per: Rerum familiarium libri (Familiares).
+     Modello del corso (item-DC-Qualified): root con namespace di
+     progetto + xsi:schemaLocation; xsi:type per gli encoding scheme;
+     attributo op:ref per la riconciliazione agli authority file. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>Rerum familiarium libri</dc:title>
+  <dc:creator xsi:type="op:viaf" op:ref="https://viaf.org/viaf/39382430/">Francesco Petrarca</dc:creator>
+
+  <dc:subject>Epistolografia; prosa latina</dc:subject>
+  <dc:subject xsi:type="dcterms:LCSH">https://id.loc.gov/authorities/subjects/sh85074968</dc:subject>
+
+  <dc:description>Raccolta di lettere familiari in latino.</dc:description>
+  <dc:publisher>Edizione digitale didattica</dc:publisher>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/3035681">Europa</dc:coverage>
+  <dcterms:created xsi:type="dcterms:W3CDTF">1325</dcterms:created>
+
+  <dc:type>Text</dc:type>
+  <dc:format xsi:type="dcterms:IMT">text/html</dc:format>
+  <dc:language>lat</dc:language>
+
+  <dcterms:isPartOf xsi:type="dcterms:URI">https://www.wikidata.org/wiki/Q1401</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">opere/familiares.html</dc:identifier>
+  <dc:rights>Pubblico dominio</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

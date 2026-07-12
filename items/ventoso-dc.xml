@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per la lettera dell'ascensione al
+     Monte Ventoso (Familiares IV,1). Stesso modello del corso. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>L'ascensione al Monte Ventoso (Rerum familiarium libri IV, 1)</dc:title>
+  <dc:creator xsi:type="op:viaf" op:ref="https://viaf.org/viaf/39382430/">Francesco Petrarca</dc:creator>
+
+  <dc:subject>epistola, paesaggio, introspezione</dc:subject>
+  <dc:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85074968</dc:subject>
+
+  <dc:description>Lettera sulla salita al Mont Ventoux, indirizzata all'amico Dionigi di
+    Borgo San Sepolcro.</dc:description>
+  <dc:relation xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Dionigi_di_Borgo_San_Sepolcro</dc:relation>
+  <dc:publisher>Edizione digitale didattica</dc:publisher>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/2970031">Mont Ventoux</dc:coverage>
+  <dcterms:created xsi:type="dcterms:W3CDTF">1336</dcterms:created>
+
+  <dc:type>Text</dc:type>
+  <dc:format xsi:type="dcterms:IMT">application/xml</dc:format>
+  <dc:language>lat</dc:language>
+
+  <dcterms:isPartOf xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Francesco_Petrarca</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">items/ventoso-tei.xml</dc:identifier>
+  <dc:rights>Pubblico dominio</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

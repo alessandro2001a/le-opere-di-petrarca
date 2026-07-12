@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per: Ritratto di Petrarca (Altichiero).
+     Modello del corso (item-DC-Qualified): root con namespace di
+     progetto + xsi:schemaLocation; xsi:type per gli encoding scheme;
+     attributo op:ref per la riconciliazione agli authority file. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>Ritratto di Francesco Petrarca</dc:title>
+  <dc:creator>Altichiero da Zevio</dc:creator>
+
+  <dc:subject>Ritrattistica; iconografia</dc:subject>
+  <dc:subject xsi:type="op:lcnaf">https://id.loc.gov/authorities/names/n79092622</dc:subject>
+
+  <dc:description>Ritratto di Francesco Petrarca attribuito ad Altichiero.</dc:description>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/3171728">Padova</dc:coverage>
+  <dcterms:created xsi:type="dcterms:W3CDTF">1376</dcterms:created>
+
+  <dc:type>Image</dc:type>
+  <dc:format xsi:type="dcterms:IMT">image/jpeg</dc:format>
+
+  <dc:relation xsi:type="dcterms:URI">https://www.wikidata.org/wiki/Q1401</dc:relation>
+  <dc:identifier xsi:type="dcterms:URI">opere/ritratto.html</dc:identifier>
+  <dc:rights>Pubblico dominio</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

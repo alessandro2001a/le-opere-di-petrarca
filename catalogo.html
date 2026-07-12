@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo — Le opere di Petrarca</title>
+
+  <!-- Metadati Dublin Core (dcq-html) -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="DC.Title" content="Catalogo — Le opere di Petrarca">
+  <meta name="DC.Creator" content="Alessandro Calò — Laurea magistrale in Scienze storiche, Università di Bologna">
+  <meta name="DC.Subject" content="Francesco Petrarca; Canzoniere; opere latine; manoscritti; umanesimo">
+  <meta name="DC.Description" content="Catalogo navigabile degli 11 item della raccolta.">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2026-07-12">
+  <meta name="DC.Type" content="Text">
+  <meta name="DC.Format" content="text/html">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Rights" content="CC BY 4.0">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+<!-- Navbar responsive (W3Schools How To) -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="catalogo.html">Catalogo</a>
+  <a href="cronologia.html">Cronologia</a>
+  <a href="luoghi.html">Luoghi</a>
+  <a href="analisi.html">Analisi del testo</a>
+  <a href="dati.html">Dati</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<header class="testata">
+  <h1>Catalogo della raccolta</h1>
+  <p>Undici opere e documenti di natura diversa — testi, immagini e audio —
+     ciascuno con la propria scheda descrittiva.</p>
+</header>
+
+<main class="contenuto">
+
+  <!-- Filtro per tipologia (W3Schools How To) -->
+  <div id="myBtnContainer" class="filtri">
+    <button class="btn active" onclick="filterSelection('all')">Tutti</button>
+    <button class="btn" onclick="filterSelection('testo')">Testi</button>
+    <button class="btn" onclick="filterSelection('immagine')">Immagini</button>
+    <button class="btn" onclick="filterSelection('audio')">Audio</button>
+  </div>
+
+  <!-- Ricerca libera (W3Schools How To, adattata) -->
+  <input type="text" id="myInput" onkeyup="searchFunction()"
+         placeholder="Cerca per titolo, autore, soggetto..." title="Scrivi per filtrare">
+
+  <div class="griglia">
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>Canzoniere (Rerum vulgarium fragmenta)</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1336-1374 &middot; volgare</p>
+      <a class="bottone" href="opere/canzoniere.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>Trionfi</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1351-1374 &middot; volgare</p>
+      <a class="bottone" href="opere/trionfi.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>Secretum (De secreto conflictu curarum mearum)</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1347-1353 &middot; latino</p>
+      <a class="bottone" href="opere/secretum.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>Africa</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1338-1343 &middot; latino</p>
+      <a class="bottone" href="opere/africa.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>De viris illustribus</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1337-1353 &middot; latino</p>
+      <a class="bottone" href="opere/deviris.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>Rerum familiarium libri (Familiares)</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1325-1366 &middot; latino</p>
+      <a class="bottone" href="opere/familiares.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv testo show card">
+      <div class="thumb">&#9997;</div>
+      <span class="tag">testo</span>
+      <h3>L&#x27;ascensione al Monte Ventoso (Fam. IV,1)</h3>
+      <p class="meta">Francesco Petrarca</p>
+      <p class="meta">1336? &middot; latino</p>
+      <a class="bottone" href="opere/ventoso.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv immagine show card">
+      <div class="thumb">&#9635;</div>
+      <span class="tag">immagine</span>
+      <h3>Autografo del Canzoniere (Vat. Lat. 3195)</h3>
+      <p class="meta">Francesco Petrarca; Giovanni Malpaghini</p>
+      <p class="meta">1366-1374 ca. &middot; volgare</p>
+      <a class="bottone" href="opere/vat3195.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv immagine show card">
+      <div class="thumb">&#9635;</div>
+      <span class="tag">immagine</span>
+      <h3>Ritratto di Petrarca (Altichiero)</h3>
+      <p class="meta">Altichiero da Zevio</p>
+      <p class="meta">1376 ca. &middot; -</p>
+      <a class="bottone" href="opere/ritratto.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv audio show card">
+      <div class="thumb">&#9834;</div>
+      <span class="tag">audio</span>
+      <h3>Lettura del sonetto &#x27;Voi ch&#x27;ascoltate&#x27; (RVF 1)</h3>
+      <p class="meta">Sergio Baldelli (lettore); Francesco Petrarca (autore del testo)</p>
+      <p class="meta">registrazione LibriVox (s.d.) &middot; volgare</p>
+      <a class="bottone" href="opere/letturarvf.html">Vai alla scheda &rarr;</a>
+    </div>
+    <div class="filterDiv immagine show card">
+      <div class="thumb">&#9635;</div>
+      <span class="tag">immagine</span>
+      <h3>Casa del Petrarca ad Arquà</h3>
+      <p class="meta">-</p>
+      <p class="meta">XIV sec. &middot; -</p>
+      <a class="bottone" href="opere/arqua.html">Vai alla scheda &rarr;</a>
+    </div>
+  </div>
+
+</main>
+
+<!-- Torna su (W3Schools How To) -->
+<button onclick="topFunction()" id="myBtn" title="Torna all'inizio">&#8679; Su</button>
+
+<footer class="piede">
+  <p>«Le opere di Petrarca» — prova finale del corso <em>Digital Humanities e Patrimonio
+  Culturale</em> (LM, Università di Bologna). Contenuti descritti con Dublin Core, XML/TEI
+  e record di autorità (VIAF, GeoNames, LCSH/LCNAF).</p>
+</footer>
+
+<script src="js/main.js"></script>
+<!-- Script del filtro (W3Schools How To) -->
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+// NOTA: rispetto all'esempio W3Schools la ricerca della classe "active" è
+// limitata al contenitore dei pulsanti (btnContainer invece di document),
+// perché nella pagina anche la voce di menu corrente usa la classe "active".
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = btnContainer.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<!-- Script della ricerca (W3Schools How To, adattata) -->
+<script>
+function searchFunction() {
+  var input, filter, cards, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  cards = document.getElementsByClassName("filterDiv");
+  for (i = 0; i < cards.length; i++) {
+    txtValue = cards[i].textContent || cards[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      cards[i].style.display = "";
+    } else {
+      cards[i].style.display = "none";
+    }
+  }
+}
+</script>
+</body>
+</html>

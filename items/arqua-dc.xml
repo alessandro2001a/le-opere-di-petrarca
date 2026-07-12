@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Record Dublin Core Qualified per: Casa del Petrarca ad Arquà.
+     Modello del corso (item-DC-Qualified): root con namespace di
+     progetto + xsi:schemaLocation; xsi:type per gli encoding scheme;
+     attributo op:ref per la riconciliazione agli authority file. -->
+<op:metadata
+    xmlns:op="http://example.org/OperePetrarca/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xsi:schemaLocation="http://example.org/OperePetrarca/ http://example.org/OperePetrarca/schema.xsd">
+
+  <dc:title>Casa del Petrarca ad Arquà</dc:title>
+
+  <dc:subject>Casa-museo; luoghi petrarcheschi</dc:subject>
+  <dc:subject xsi:type="op:lcnaf">https://id.loc.gov/authorities/names/n79092622</dc:subject>
+
+  <dc:description>Dimora e casa-museo di Petrarca ad Arquà.</dc:description>
+  <dc:publisher>Comune di Arquà Petrarca</dc:publisher>
+
+  <dc:coverage xsi:type="op:geonames" op:ref="https://www.geonames.org/11496398">Arquà Petrarca</dc:coverage>
+  <dc:date>XIV sec.</dc:date>
+
+  <dc:type>Image</dc:type>
+  <dc:format xsi:type="dcterms:IMT">image/jpeg</dc:format>
+
+  <dcterms:isPartOf xsi:type="dcterms:URI">https://it.wikipedia.org/wiki/Colli_Euganei</dcterms:isPartOf>
+  <dc:identifier xsi:type="dcterms:URI">opere/arqua.html</dc:identifier>
+  <dc:rights>CC BY 4.0</dc:rights>
+  <dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
+</op:metadata>

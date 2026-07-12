@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le opere di Petrarca — Raccolta digitale</title>
+
+  <!-- Metadati Dublin Core (dcq-html) -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="DC.Title" content="Le opere di Petrarca — Raccolta digitale">
+  <meta name="DC.Creator" content="Alessandro Calò — Laurea magistrale in Scienze storiche, Università di Bologna">
+  <meta name="DC.Subject" content="Francesco Petrarca; Canzoniere; opere latine; manoscritti; umanesimo">
+  <meta name="DC.Description" content="Raccolta web eterogenea (testi, immagini, audio) dedicata alle opere di Francesco Petrarca.">
+  <meta name="DC.Publisher" content="Università di Bologna">
+  <meta name="DC.Date" content="2026-07-12">
+  <meta name="DC.Type" content="Collection">
+  <meta name="DC.Format" content="text/html">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Rights" content="CC BY 4.0">
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+<!-- Navbar responsive (W3Schools How To) -->
+<div class="topnav" id="myTopnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="catalogo.html">Catalogo</a>
+  <a href="cronologia.html">Cronologia</a>
+  <a href="luoghi.html">Luoghi</a>
+  <a href="analisi.html">Analisi del testo</a>
+  <a href="dati.html">Dati</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<header class="testata testata-grande">
+  <h1>Le opere di Francesco Petrarca</h1>
+  <p>Una raccolta digitale delle opere volgari e latine del poeta, dei suoi manoscritti
+     e della sua iconografia: un percorso tra i testi, le immagini e i luoghi
+     di Francesco Petrarca.</p>
+  <a class="bottone bottone-chiaro" href="catalogo.html">Esplora il catalogo</a>
+  <p class="credito-sfondo">Sfondo: Altichiero da Zevio, <em>Ritratto di Francesco Petrarca</em>
+     (particolare), 1376 ca., Padova — Wikimedia Commons, pubblico dominio.
+     <a href="opere/ritratto.html">Scheda dell'opera</a>.</p>
+</header>
+
+<main class="contenuto">
+
+  <section>
+    <h2>Il progetto</h2>
+    <p><em>Le opere di Petrarca</em> nasce come prova finale del corso <em>Digital
+       Humanities e Patrimonio Culturale</em> (LM, Università di Bologna) e raccoglie
+       un insieme eterogeneo di risorse legate a <a href="petrarca.html">Francesco Petrarca</a> (1304&ndash;1374):
+       le grandi opere in volgare e in latino, i manoscritti che le tramandano,
+       i ritratti del poeta e i luoghi della sua vita.</p>
+    <p>Ogni opera ha una propria scheda, con la descrizione, le fonti e i rimandi
+       alle opere correlate della raccolta.</p>
+  </section>
+
+  <section>
+    <h2>I metodi di accesso alla raccolta</h2>
+    <!-- Accordion (W3Schools How To) -->
+    <button class="accordion">Il catalogo <span class="nota-piccola">(naviga per tipologia o con la ricerca libera)</span></button>
+    <div class="panel">
+      <p>Le undici opere della raccolta, presentate come schede sfogliabili: si possono
+         filtrare per tipo (testi, immagini, audio) o cercare liberamente. <a href="catalogo.html">Vai al catalogo</a></p>
+    </div>
+
+    <button class="accordion">La cronologia <span class="nota-piccola">(naviga in sequenza temporale)</span></button>
+    <div class="panel">
+      <p>Gli eventi della vita di Petrarca dal 1304 al 1374, con il rimando alle schede
+         delle opere composte in ciascun periodo. <a href="cronologia.html">Vai alla cronologia</a></p>
+    </div>
+
+    <button class="accordion">I luoghi <span class="nota-piccola">(naviga attraverso le mappe)</span></button>
+    <div class="panel">
+      <p>I luoghi petrarcheschi (Arezzo, Avignone, Valchiusa, il Mont Ventoux, Arquà)
+         raccontati attraverso le mappe. <a href="luoghi.html">Vai ai luoghi</a></p>
+    </div>
+
+    <button class="accordion">L'analisi del testo <span class="nota-piccola">(esplora il lessico con Voyant Tools)</span></button>
+    <div class="panel">
+      <p>Il lessico del sonetto proemiale del Canzoniere esplorato con Voyant Tools. <a href="analisi.html">Vai all'analisi</a></p>
+    </div>
+
+    <button class="accordion">L'indice alfabetico <span class="nota-piccola">(previsto)</span></button>
+    <div class="panel">
+      <p>L'indice per titolo e per persona è previsto dal progetto e sarà attivato
+         in una prossima versione della raccolta.</p>
+    </div>
+
+    <button class="accordion">I dati <span class="nota-piccola">(la raccolta come dataset)</span></button>
+    <div class="panel">
+      <p>Tutte le opere della raccolta in un'unica tabella, con i dati scaricabili.
+         <a href="dati.html">Vai ai dati</a></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- Torna su (W3Schools How To) -->
+<button onclick="topFunction()" id="myBtn" title="Torna all'inizio">&#8679; Su</button>
+
+<footer class="piede">
+  <p>«Le opere di Petrarca» — prova finale del corso <em>Digital Humanities e Patrimonio
+  Culturale</em> (LM, Università di Bologna). Contenuti descritti con Dublin Core, XML/TEI
+  e record di autorità (VIAF, GeoNames, LCSH/LCNAF).</p>
+</footer>
+
+<script src="js/main.js"></script>
+
+<!-- Script dell'accordion (W3Schools How To) -->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.d
